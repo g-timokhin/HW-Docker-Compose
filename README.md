@@ -21,6 +21,10 @@ https://hub.docker.com/r/gregtimokhin/custom-nginx
 ![image](https://github.com/user-attachments/assets/ae62e273-7e2d-4da4-ac91-999ffe8d4c47)
 Обращение к локальному хосту по curl (обратиться получается только по порту 81, т.к конфиг nginx был изменен)
 ![image](https://github.com/user-attachments/assets/04d72016-b641-4641-bb00-00ad7a564ac8)
+Порт 8080 не используется в прослушиваемых адресах, поэтому вывод команды с grep будет пустым
+![image](https://github.com/user-attachments/assets/c754187b-deb0-492b-8f92-ba53ca0d10d0)
+
+
 
 
 
