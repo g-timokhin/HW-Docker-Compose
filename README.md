@@ -13,12 +13,14 @@ https://hub.docker.com/r/gregtimokhin/custom-nginx
 
 Контейнер остановился, потому что сочетание клавиш Ctrl+C зарезервировано под отправку сигнала SIGKILL в контейнер, которое при --sig-proxy==true вызывает отправку сигнала остановки SIGINT в главный процесс контейнера (https://docs.docker.com/reference/cli/docker/container/attach/)
 
+Запуск контейнера в интерактивном режиме и установка nano в контейнере
 ![image](https://github.com/user-attachments/assets/077d1de9-3ddd-4f88-8f85-98f2d92bf8c0)
-![Снимок экрана (1511)](https://github.com/user-attachments/assets/72824c60-2c2d-4fa2-9649-21eed8c121ad)
-Проблемы уже возникли на этапе перезагрузки nginx
-![image](https://github.com/user-attachments/assets/ab95c098-6473-40d7-89af-1956b34c5cf4)
-curl из контейнера и с хоста возвращает Connection refused, возвращение ошибки при вызове с хоста может объясняться тем, что после маппинга портов с помощью команды docker port, запрос перенаправляется в контейнер, где конфигурация nginx была изменена (однако она также может быть вызвана тем, что перезагрузка nginx в контейнере не прошла нормально)
-![image](https://github.com/user-attachments/assets/3011a33d-aa6e-49b9-bcab-27315642936f)
+Редактирование конфига nginx
+![image](https://github.com/user-attachments/assets/772ce74a-314a-47cb-bdc7-33a26a215c6c)
+Перезагрузка nginx
+![image](https://github.com/user-attachments/assets/ae62e273-7e2d-4da4-ac91-999ffe8d4c47)
+
+
 
 
 
