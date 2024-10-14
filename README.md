@@ -42,6 +42,13 @@ https://hub.docker.com/r/gregtimokhin/custom-nginx
 При выполнении команды docker compose up -d используется файл compose.yml, т.к для актуальной версии docker compose дефолтным путем к compose-файлу является ".../compose.yml", а остальные версии -- docker-compose.yml/docker-compose.yaml -- поддерживаются для обеспечения обратной совместимости с прежними версиями docker compose.
 ![image](https://github.com/user-attachments/assets/edbbcfd2-39ed-402d-a44e-060d9ccbb7d6)
 
+Запуск docker compose из двух конфигов с помощью include
+![image](https://github.com/user-attachments/assets/5ae9a342-8411-41e1-8539-f3b116dceba2)
+![image](https://github.com/user-attachments/assets/6d5b68dc-587d-4344-a523-42b6c0dc689d)
+
+
+
+
 
 
 
