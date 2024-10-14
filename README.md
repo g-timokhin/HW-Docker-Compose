@@ -36,6 +36,7 @@ https://hub.docker.com/r/gregtimokhin/custom-nginx
 ![image](https://github.com/user-attachments/assets/96e3a2c8-8b8c-49a8-9927-e71d2d12a5ef)
 
 # Задача 4
+![image](https://github.com/user-attachments/assets/05f21061-89ec-4b7c-9bfb-917c6362a654)
 
 
 
