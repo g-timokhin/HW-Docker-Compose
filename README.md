@@ -46,6 +46,51 @@ https://hub.docker.com/r/gregtimokhin/custom-nginx
 ![image](https://github.com/user-attachments/assets/5ae9a342-8411-41e1-8539-f3b116dceba2)
 ![image](https://github.com/user-attachments/assets/6d5b68dc-587d-4344-a523-42b6c0dc689d)
 
+Загрузка custom-nginx в локальный реестр
+![image](https://github.com/user-attachments/assets/95904f93-90ac-4070-9a4a-cb09f96ed51a)
+
+Начальная настройка Portainer
+![image](https://github.com/user-attachments/assets/047ed4ea-d5bd-4dea-ac8d-33d9de0fa0f5)
+
+Страница home
+![image](https://github.com/user-attachments/assets/eae5b509-0edc-405b-a185-2d8346e4694d)
+
+Stacks
+![image](https://github.com/user-attachments/assets/651eb4a9-d0fd-4588-a1d2-5b08dc873e5e)
+
+Web-editor
+![Снимок экрана (1568)](https://github.com/user-attachments/assets/1df5eef0-8a3d-4512-8dd0-5478a424f9ad)
+
+Успешный деплой композа
+![Снимок экрана (1569)](https://github.com/user-attachments/assets/a05bba80-bb9b-4081-a0ba-cc1d95708561)
+
+Inspect контейнера с nginx
+![image](https://github.com/user-attachments/assets/2474f4a3-745f-4d04-b544-12af4cc7f525)
+
+Скриншот от AppArmorProfile до Driver
+![image](https://github.com/user-attachments/assets/ee16a1aa-374b-4d98-a23c-da8a9033847c)
+
+Удаление одного из манифестов
+![image](https://github.com/user-attachments/assets/de5f48e1-bbe9-4fde-947d-828b8101c1bd)
+
+Повторный запуск композа
+![image](https://github.com/user-attachments/assets/1f76ad6c-a18c-41e1-a1cd-2c896f2b0499)
+
+Предупреждение говорит о том, что Docker Compose обнаружил контейнеры, которые не определены в текущем compose-файле, но при этом ссылки на них в данном композе сохранены.
+Поднимаем, следуя совету, композ, удаляя неопределенные в compose-файле контейнеры
+![image](https://github.com/user-attachments/assets/9d7dbe51-bbf8-44f9-946d-143b38e9a28d)
+
+Гасим композ одной командой
+![image](https://github.com/user-attachments/assets/6f6b2ad6-6cdd-4b42-ba8f-2c4c89a873d0)
+
+
+
+
+
+
+
+
+
 
 
 
